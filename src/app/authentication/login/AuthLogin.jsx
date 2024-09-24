@@ -15,7 +15,7 @@ const AuthLogin = ({ title, subtitle, subtext, credentials, setCredentials }) =>
 
       {subtext}
 
-      <Stack mt={3} my={2}>
+      <Stack my={3}>
         <Box>
           <TextField
             label="Username"
