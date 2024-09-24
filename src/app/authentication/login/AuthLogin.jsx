@@ -15,7 +15,7 @@ const AuthLogin = ({ title, subtitle, subtext, credentials, setCredentials }) =>
 
       {subtext}
 
-      <Stack mt={3}>
+      <Stack mt={3} my={2}>
         <Box>
           <TextField
             label="Username"
@@ -41,25 +41,6 @@ const AuthLogin = ({ title, subtitle, subtext, credentials, setCredentials }) =>
             onChange={handelChange}
           />
         </Box>
-
-        <Stack
-          justifyContent="end"
-          direction="row"
-          alignItems="center"
-          my={2}
-        >
-          <Typography
-            component={Link}
-            href="#"
-            fontWeight={500}
-            sx={{
-              textDecoration: "none",
-              color: "primary.main",
-            }}
-          >
-            Forgot Password ?
-          </Typography>
-        </Stack>
       </Stack>
 
       <Box>
